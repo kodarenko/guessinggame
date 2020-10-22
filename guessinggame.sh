@@ -7,7 +7,7 @@ while [[ $number -ne $answer ]]
 do
 	if [[ $number -lt $answer ]]
 	then
-		echo "Your guess is to low"
+		echo "Your guess is too low"
 		echo "Try again! Print your next guess and print enter:"
 	elif [[ $number -gt $answer ]]
 	then
